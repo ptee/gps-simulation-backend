@@ -1,15 +1,15 @@
 # Extension of OSRM Backend For Route Planning and Simulation Part 1.
-[OSRM Routing Service](https://github.com/Project-OSRM/osrm-backend) is a high performance routing engine run on OpenStreetMap data. This part is to route preferences for each vehicle type used by [Simulation Core]().
+
+[OSRM Routing Service](https://github.com/Project-OSRM/osrm-backend) is a high-performance routing engine that runs on OpenStreetMap data. This component is responsible for defining routing preferences for each vehicle type used by the [Simulation Core]().
+
 
 ## Download OSM Map
-
 - Download OSM map or use pbf from Geofabrik e.g. germany-latest.osm.pbf (3.4GB):
 
 `wget http://download.geofabrik.de/europe/germany/germany-latest.osm.pbf`
 
 
 ## OSRM Backend 
-
 You can either:
 - Download and build the OSRM backend source from [OSRM Project](https://github.com/Project-OSRM/osrm-backend).
 
